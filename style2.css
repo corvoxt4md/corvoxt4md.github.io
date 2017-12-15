@@ -23,9 +23,10 @@ h1{
 	margin:0;
 	padding:0;
 }
-h2{
+a{
 	font-family:verdana;
 	font-size:27px;
+	text-decoration:none;
 }
 .nav{
 	height:60px;
@@ -59,6 +60,11 @@ li a:hover{
 .banner{
 	padding:0;
 	margin:0;
+	transition:.5s;
+}
+.banner:hover{
+	filter: grayscale(100%);
+	transition:.5s;
 }
 #banner{
 	width:100%;
@@ -81,11 +87,11 @@ li a:hover{
 	margin:0px;
 	padding:0px;
 }
-.image h2{
+.image a{
 	position:absolute;
-	bottom:200px;
+	bottom:220px;
 	color:white;
-	left:125px;
+	left:140px;
 	z-index:-1;
 	transition:.5s;
 	border-bottom: 3px solid white;
@@ -96,9 +102,8 @@ li a:hover{
 }
 .image img:hover{
 	transition:.5s;
-	-webkit-filter: blur(5px);
+	filter:blur(4px) brightness(70%);
 	z-index:1;
-	-webkit-filter: brightness(70%);
 }
 #image{
 	position:relative;
@@ -127,11 +132,11 @@ li a:hover{
 	font-size:22px;
 	text-align:center;
 }
-.image1 h2{
+.image1 a{
 	position:absolute;
-	bottom:200px;
+	bottom:220px;
 	color:white;
-	left:125px;
+	left:140px;
 	z-index:-1;
 	transition:.5s;
 	border-bottom: 3px solid white;
@@ -142,9 +147,8 @@ li a:hover{
 }
 .image1 img:hover{
 	transition:.5s;
-	-webkit-filter: blur(5px);
+	filter:blur(4px) brightness(70%);
 	z-index:1;
-	-webkit-filter: brightness(70%);
 }
 #image1{
 	position:relative;
@@ -173,11 +177,11 @@ li a:hover{
 	font-size:22px;
 	text-align:center;
 }
-.image2 h2{
+.image2 a{
 	position:absolute;
-	bottom:200px;
+	bottom:220px;
 	color:white;
-	left:125px;
+	left:140px;
 	z-index:-1;
 	transition:.5s;
 	border-bottom: 3px solid white;
@@ -188,9 +192,8 @@ li a:hover{
 }
 .image2 img:hover{
 	transition:.5s;
-	-webkit-filter: blur(5px);
+	filter:blur(4px) brightness(70%);
 	z-index:1;
-	-webkit-filter: brightness(70%);
 }
 #image2{
 	position:relative;
@@ -219,11 +222,11 @@ li a:hover{
 	font-size:22px;
 	text-align:center;
 }
-.image3 h2{
+.image3 a{
 	position:absolute;
-	bottom:200px;
+	bottom:220px;
 	color:white;
-	left:125px;
+	left:140px;
 	z-index:-1;
 	transition:.5s;
 	border-bottom: 3px solid white;
@@ -234,9 +237,8 @@ li a:hover{
 }
 .image3 img:hover{
 	transition:.5s;
-	-webkit-filter: blur(5px);
+	filter:blur(4px) brightness(70%);
 	z-index:1;
-	-webkit-filter: brightness(70%);
 }
 #image3{
 	position:relative;
@@ -265,11 +267,11 @@ li a:hover{
 	font-size:22px;
 	text-align:center;
 }
-.image4 h2{
+.image4 a{
 	position:absolute;
-	bottom:200px;
+	bottom:220px;
 	color:white;
-	left:125px;
+	left:140px;
 	z-index:-1;
 	transition:.5s;
 	border-bottom: 3px solid white;
@@ -280,9 +282,8 @@ li a:hover{
 }
 .image4 img:hover{
 	transition:.5s;
-	-webkit-filter: blur(5px);
+	filter:blur(4px) brightness(70%);
 	z-index:1;
-	-webkit-filter: brightness(70%);
 }
 #image4{
 	position:relative;
@@ -311,11 +312,11 @@ li a:hover{
 	font-size:22px;
 	text-align:center;
 }
-.image5 h2{
+.image5 a{
 	position:absolute;
-	bottom:200px;
+	bottom:220px;
 	color:white;
-	left:125px;
+	left:140px;
 	z-index:-1;
 	transition:.5s;
 	border-bottom: 3px solid white;
@@ -326,9 +327,8 @@ li a:hover{
 }
 .image5 img:hover{
 	transition:.5s;
-	-webkit-filter: blur(5px);
+	filter:blur(4px) brightness(70%);
 	z-index:1;
-	-webkit-filter: brightness(70%);
 }
 #image5{
 	position:relative;
@@ -357,11 +357,11 @@ li a:hover{
 	font-size:22px;
 	text-align:center;
 }
-.image6 h2{
+.image6 a{
 	position:absolute;
-	bottom:200px;
+	bottom:220px;
 	color:white;
-	left:125px;
+	left:140px;
 	z-index:-1;
 	transition:.5s;
 	border-bottom: 3px solid white;
@@ -372,9 +372,8 @@ li a:hover{
 }
 .image6 img:hover{
 	transition:.5s;
-	-webkit-filter: blur(5px);
+	filter:blur(4px) brightness(70%);
 	z-index:1;
-	-webkit-filter: brightness(70%);
 }
 #image6{
 	position:relative;
@@ -403,11 +402,11 @@ li a:hover{
 	font-size:22px;
 	text-align:center;
 }
-.image7 h2{
+.image7 a{
 	position:absolute;
-	bottom:200px;
+	bottom:220px;
 	color:white;
-	left:125px;
+	left:140px;
 	z-index:-1;
 	transition:.5s;
 	border-bottom: 3px solid white;
@@ -418,9 +417,8 @@ li a:hover{
 }
 .image7 img:hover{
 	transition:.5s;
-	-webkit-filter: blur(5px);
+	filter:blur(4px) brightness(70%);
 	z-index:1;
-	-webkit-filter: brightness(70%);
 }
 #image7{
 	position:relative;
@@ -449,11 +447,11 @@ li a:hover{
 	font-size:22px;
 	text-align:center;
 }
-.image8 h2{
+.image8 a{
 	position:absolute;
-	bottom:200px;
+	bottom:220px;
 	color:white;
-	left:125px;
+	left:140px;
 	z-index:-1;
 	transition:.5s;
 	border-bottom: 3px solid white;
@@ -464,9 +462,8 @@ li a:hover{
 }
 .image8 img:hover{
 	transition:.5s;
-	-webkit-filter: blur(5px);
+	filter:blur(4px) brightness(70%);
 	z-index:1;
-	-webkit-filter: brightness(70%);
 }
 #image8{
 	position:relative;
@@ -495,11 +492,11 @@ li a:hover{
 	font-size:22px;
 	text-align:center;
 }
-.image9 h2{
+.image9 a{
 	position:absolute;
-	bottom:200px;
+	bottom:220px;
 	color:white;
-	left:125px;
+	left:140px;
 	z-index:-1;
 	transition:.5s;
 	border-bottom: 3px solid white;
@@ -510,9 +507,8 @@ li a:hover{
 }
 .image9 img:hover{
 	transition:.5s;
-	-webkit-filter: blur(5px);
+	filter:blur(4px) brightness(70%);
 	z-index:1;
-	-webkit-filter: brightness(70%);
 }
 #image9{
 	position:relative;
@@ -541,11 +537,11 @@ li a:hover{
 	font-size:22px;
 	text-align:center;
 }
-.image10 h2{
+.image10 a{
 	position:absolute;
-	bottom:200px;
+	bottom:220px;
 	color:white;
-	left:125px;
+	left:140px;
 	z-index:-1;
 	transition:.5s;
 	border-bottom: 3px solid white;
@@ -556,9 +552,8 @@ li a:hover{
 }
 .image10 img:hover{
 	transition:.5s;
-	-webkit-filter: blur(5px);
+	filter:blur(4px) brightness(70%);
 	z-index:1;
-	-webkit-filter: brightness(70%);
 }
 #image10{
 	position:relative;
@@ -587,11 +582,11 @@ li a:hover{
 	font-size:22px;
 	text-align:center;
 }
-.image11 h2{
+.image11 a{
 	position:absolute;
-	bottom:200px;
+	bottom:220px;
 	color:white;
-	left:125px;
+	left:140px;
 	z-index:-1;
 	transition:.5s;
 	border-bottom: 3px solid white;
@@ -602,9 +597,8 @@ li a:hover{
 }
 .image11 img:hover{
 	transition:.5s;
-	-webkit-filter: blur(5px);
+	filter:blur(4px) brightness(70%);
 	z-index:1;
-	-webkit-filter: brightness(70%);
 }
 #image11{
 	position:relative;
@@ -633,11 +627,11 @@ li a:hover{
 	font-size:22px;
 	text-align:center;
 }
-.image12 h2{
+.image12 a{
 	position:absolute;
-	bottom:170px;
+	bottom:190px;
 	color:white;
-	left:125px;
+	left:140px;
 	z-index:-1;
 	transition:.5s;
 	border-bottom: 3px solid white;
@@ -648,9 +642,8 @@ li a:hover{
 }
 .image12 img:hover{
 	transition:.5s;
-	-webkit-filter: blur(5px);
+	filter:blur(4px) brightness(70%);
 	z-index:1;
-	-webkit-filter: brightness(70%);
 }
 #image12{
 	position:relative;
@@ -679,11 +672,11 @@ li a:hover{
 	font-size:22px;
 	text-align:center;
 }
-.image13 h2{
+.image13 a{
 	position:absolute;
-	bottom:170px;
+	bottom:190px;
 	color:white;
-	left:125px;
+	left:140px;
 	z-index:-1;
 	transition:.5s;
 	border-bottom: 3px solid white;
@@ -694,9 +687,8 @@ li a:hover{
 }
 .image13 img:hover{
 	transition:.5s;
-	-webkit-filter: blur(5px);
+	filter:blur(4px) brightness(70%);
 	z-index:1;
-	-webkit-filter: brightness(70%);
 }
 #image13{
 	position:relative;
@@ -725,11 +717,11 @@ li a:hover{
 	font-size:22px;
 	text-align:center;
 }
-.image14 h2{
+.image14 a{
 	position:absolute;
-	bottom:170px;
+	bottom:190px;
 	color:white;
-	left:125px;
+	left:140px;
 	z-index:-1;
 	transition:.5s;
 	border-bottom: 3px solid white;
@@ -740,9 +732,8 @@ li a:hover{
 }
 .image14 img:hover{
 	transition:.5s;
-	-webkit-filter: blur(5px);
+	filter:blur(4px) brightness(70%);
 	z-index:1;
-	-webkit-filter: brightness(70%);
 }
 #image14{
 	position:relative;
@@ -771,11 +762,11 @@ li a:hover{
 	font-size:22px;
 	text-align:center;
 }
-.image15 h2{
+.image15 a{
 	position:absolute;
-	bottom:170px;
+	bottom:190px;
 	color:white;
-	left:125px;
+	left:140px;
 	z-index:-1;
 	transition:.5s;
 	border-bottom: 3px solid white;
@@ -786,9 +777,8 @@ li a:hover{
 }
 .image15 img:hover{
 	transition:.5s;
-	-webkit-filter: blur(5px);
+	filter:blur(4px) brightness(70%);
 	z-index:1;
-	-webkit-filter: brightness(70%);
 }
 #image15{
 	position:relative;
@@ -817,11 +807,11 @@ li a:hover{
 	font-size:22px;
 	text-align:center;
 }
-.image16 h2{
+.image16 a{
 	position:absolute;
-	bottom:170px;
+	bottom:190px;
 	color:white;
-	left:125px;
+	left:140px;
 	z-index:-1;
 	transition:.5s;
 	border-bottom: 3px solid white;
@@ -832,9 +822,8 @@ li a:hover{
 }
 .image16 img:hover{
 	transition:.5s;
-	-webkit-filter: blur(5px);
+	filter:blur(4px) brightness(70%);
 	z-index:1;
-	-webkit-filter: brightness(70%);
 }
 #image16{
 	position:relative;
@@ -863,11 +852,11 @@ li a:hover{
 	font-size:22px;
 	text-align:center;
 }
-.image17 h2{
+.image17 a{
 	position:absolute;
-	bottom:170px;
+	bottom:190px;
 	color:white;
-	left:125px;
+	left:140px;
 	z-index:-1;
 	transition:.5s;
 	border-bottom: 3px solid white;
@@ -878,9 +867,8 @@ li a:hover{
 }
 .image17 img:hover{
 	transition:.5s;
-	-webkit-filter: blur(5px);
+	filter:blur(4px) brightness(70%);
 	z-index:1;
-	-webkit-filter: brightness(70%);
 }
 #image17{
 	position:relative;
@@ -909,11 +897,11 @@ li a:hover{
 	font-size:22px;
 	text-align:center;
 }
-.image18 h2{
+.image18 a{
 	position:absolute;
-	bottom:170px;
+	bottom:190px;
 	color:white;
-	left:125px;
+	left:140px;
 	z-index:-1;
 	transition:.5s;
 	border-bottom: 3px solid white;
@@ -924,9 +912,8 @@ li a:hover{
 }
 .image18 img:hover{
 	transition:.5s;
-	-webkit-filter: blur(5px);
+	filter:blur(4px) brightness(70%);
 	z-index:1;
-	-webkit-filter: brightness(70%);
 }
 #image18{
 	position:relative;
@@ -955,11 +942,11 @@ li a:hover{
 	font-size:22px;
 	text-align:center;
 }
-.image19 h2{
+.image19 a{
 	position:absolute;
-	bottom:170px;
+	bottom:190px;
 	color:white;
-	left:125px;
+	left:140px;
 	z-index:-1;
 	transition:.5s;
 	border-bottom: 3px solid white;
@@ -970,9 +957,8 @@ li a:hover{
 }
 .image19 img:hover{
 	transition:.5s;
-	-webkit-filter: blur(5px);
+	filter:blur(4px) brightness(70%);
 	z-index:1;
-	-webkit-filter: brightness(70%);
 }
 #image19{
 	position:relative;
@@ -1001,11 +987,11 @@ li a:hover{
 	font-size:22px;
 	text-align:center;
 }
-.image20 h2{
+.image20 a{
 	position:absolute;
-	bottom:170px;
+	bottom:190px;
 	color:white;
-	left:125px;
+	left:140px;
 	z-index:-1;
 	transition:.5s;
 	border-bottom: 3px solid white;
@@ -1016,9 +1002,8 @@ li a:hover{
 }
 .image20 img:hover{
 	transition:.5s;
-	-webkit-filter: blur(5px);
+	filter:blur(4px) brightness(70%);
 	z-index:1;
-	-webkit-filter: brightness(70%);
 }
 #image20{
 	position:relative;
@@ -1047,11 +1032,11 @@ li a:hover{
 	font-size:22px;
 	text-align:center;
 }
-.image21 h2{
+.image21 a{
 	position:absolute;
-	bottom:170px;
+	bottom:190px;
 	color:white;
-	left:125px;
+	left:140px;
 	z-index:-1;
 	transition:.5s;
 	border-bottom: 3px solid white;
@@ -1062,9 +1047,8 @@ li a:hover{
 }
 .image21 img:hover{
 	transition:.5s;
-	-webkit-filter: blur(5px);
+	filter:blur(4px) brightness(70%);
 	z-index:1;
-	-webkit-filter: brightness(70%);
 }
 #image21{
 	position:relative;
@@ -1093,11 +1077,11 @@ li a:hover{
 	font-size:22px;
 	text-align:center;
 }
-.image22 h2{
+.image22 a{
 	position:absolute;
-	bottom:170px;
+	bottom:190px;
 	color:white;
-	left:125px;
+	left:140px;
 	z-index:-1;
 	transition:.5s;
 	border-bottom: 3px solid white;
@@ -1108,9 +1092,8 @@ li a:hover{
 }
 .image22 img:hover{
 	transition:.5s;
-	-webkit-filter: blur(5px);
+	filter:blur(4px) brightness(70%);
 	z-index:1;
-	-webkit-filter: brightness(70%);
 }
 #image22{
 	position:relative;
@@ -1139,11 +1122,11 @@ li a:hover{
 	font-size:22px;
 	text-align:center;
 }
-.image23 h2{
+.image23 a{
 	position:absolute;
-	bottom:170px;
+	bottom:190px;
 	color:white;
-	left:125px;
+	left:140px;
 	z-index:-1;
 	transition:.5s;
 	border-bottom: 3px solid white;
@@ -1154,9 +1137,8 @@ li a:hover{
 }
 .image23 img:hover{
 	transition:.5s;
-	-webkit-filter: blur(5px);
+	filter:blur(4px) brightness(70%);
 	z-index:1;
-	-webkit-filter: brightness(70%);
 }
 #image23{
 	position:relative;
