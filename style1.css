@@ -67,7 +67,7 @@ margin:0;
           transition: all 1s ease;
 }
 #dishonored:hover{
-	-webkit-filter: blur(2px);
+	filter:brightness(70%) blur(3px);
 }
 .dishonored{
 	margin:0;
@@ -102,4 +102,31 @@ h3{
 	font-family:verdana;
 	font-size:25px;
 	left:15px;
+}
+#skyrim{
+height:500px;
+width:100%;
+padding:0;
+margin:0;
+ -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+#skyrim:hover{
+	-webkit-filter:brightness(70%) blur(3px);
+}
+.skyrim{
+	margin:0;
+	padding:0;
+	padding-top:60px;
+	padding-bottom:60px;
+	position:relative;
+}
+.skyrim:hover{
+    color:darkgrey;
+}
+a{
+	color:inherit;
 }
