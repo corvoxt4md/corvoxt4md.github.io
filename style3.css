@@ -62,3 +62,40 @@ li a:hover{
 	transition:5s;
 	display:block;
 }
+.genres{
+	height:60px;
+	background-color:black;
+	width:100%;
+}
+.genres li a{
+	top:13.5px;
+}
+ul{
+	margin:0;
+	padding:0;
+	list-style-type:none;
+	text-align:center;
+}
+li a{
+	color:dimgrey;
+	text-decoration:none;
+	font-family:verdana;
+	font-size:25px;
+	background-color:black;
+	padding:14px;
+	position:relative;
+	padding-top:14px;
+	padding-bottom:14px;
+}
+li{
+	display:inline-block;
+}
+li a:hover{
+	background-color:darkgrey;
+}
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)  {
+li a{
+	padding-top:13px;
+}

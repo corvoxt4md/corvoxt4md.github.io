@@ -40,14 +40,16 @@ p{
 .nav{
 	height:60px;
 	background-color:black;
-	text-align:center;
 	width:100%;
+}
+.nav li a{
+	top:13.5px;
 }
 ul{
 	margin:0;
 	padding:0;
-	overflow:hidden;
 	list-style-type:none;
+	text-align:center;
 }
 li a{
 	color:dimgrey;
@@ -56,12 +58,12 @@ li a{
 	font-size:25px;
 	background-color:black;
 	padding:14px;
-	display:inline-block;
 	position:relative;
-	left:640px;
+	padding-top:14px;
+	padding-bottom:14px;
 }
 li{
-	float:left;
+	display:inline-block;
 }
 li a:hover{
 	background-color:darkgrey;
@@ -1175,4 +1177,10 @@ li a:hover{
 	font-family:verdana;
 	font-size:22px;
 	text-align:center;
+}
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)  {
+li a{
+	padding-top:13px;
 }
