@@ -144,3 +144,9 @@ li a{
 	width:100%;
 	height:300px;
 }
+.dishonored p{
+	visibility:hidden;
+}
+.skyrim p{
+	visibility:hidden;
+}
