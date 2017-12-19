@@ -7,7 +7,7 @@
 body{
 	margin:0;
 	padding:0;
-	background-color:black;
+	background-color:slategrey;
 }
 img{
 	display:block;
@@ -63,8 +63,12 @@ li a:hover{
 	height:500px;
 	padding:0;
 	margin:0;
-	transition:5s;
+	transition:2s;
 	display:block;
+}
+#banner:hover{
+	filter:hue-rotate(360deg);
+	transition:2s;
 }
 .ciwyw audio{
 	position:relative;
@@ -79,8 +83,6 @@ li a:hover{
 	transition:.5s;
 	filter:contrast(175%);
 }
-#havanap{
-}
 .havana img{
 	padding-top:50px;
 	transition:.5s;
@@ -88,4 +90,9 @@ li a:hover{
 .havana img:hover{
 	transition:.5s;
 	filter:contrast(175%);
+}
+.havana audio{
+	position:relative;
+	top:-70px;
+	left:110px;	
 }
